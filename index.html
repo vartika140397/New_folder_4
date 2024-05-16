@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <h3 class="box1" style="margin-left:900px;">0.8 &#xd7; 4</h3>
+    <h3 class="box1" style="margin-left:900px">34</h3>
+    <h3 style="margin-left: 500px;">32</h3>
+    <h3 style="margin-left: 50px;">3998</h3>
+    <h3 style="margin-left: 0px;">0</h3>
+    <h3 style="margin-left: 0px;">3998</h3>
+    <div class="flex-container_list10">
+        <td  colspan="4">
+    </td>
+    <div class="flex-container_list3">
+    <h5>calc</h5>
+    <input type="text5" id="result" placeholder="8 &#xd7; 4+2" name="display">
+    <div class="flex-container_list4">
+        <div class="flex-container_list5"></div>
+        <table cellpading="2" cellspacing="2">
+            <div class="container">
+                <div class="calculator">
+                    <form>
+                        <div>
+                            <input type="text" name="display">
+                            </div><br>
+                        </div>
+        <tr>
+            <td><input type="button" value="7" onclick="display.value +='7' "></td>
+            <td><input type="button" value="8" onclick="display.value +='8' "></td>
+            <td><input type="button" value="9" onclick="display.value +='9' "></td>
+            <td><input style="background-color:rgb(57, 57, 95);" type="button" value="DEL" onclick="display.value = display.value.toString().slice(0,-1)"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="4" onclick="display.value +='4'"></td>
+            <td><input type="button" value="5" onclick="display.value +='5'"></td>
+            <td><input type="button" value="6" onclick="display.value +='6'"></td>
+            <td><input type="button" value="+" onclick="display.value += '+'"></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="1" onclick="display.value +='1'"></td>
+            <td><input type="button" value="2" onclick="display.value +='2'"></td>
+            <td><input type="button" value="3" onclick="display.value +='3'"></td>
+            <td><input type="button" value="-" onclick="display.value +='-' "></td>
+        </tr>
+        <tr>
+            <td><input type="button" value="." onclick="display.value +='.' "></td>
+            <td><input type="button" value="0" onclick="display.value +='0'"></td>
+            <td><input type="button" value="/" onclick="display.value +='/' "></td>
+            <td><input type="button" value="&#xd7" onclick="display.value +='&#xd7' "></td>
+        </tr>
+        <tr>
+            <td colspan="2"> 
+                <input type="text" style="align:center" id="RESET" placeholder="RESET" onclick="display.value ='' " >
+            </td>
+            <td colspan="2">
+                <input style= "background-color:red;" type="text" id="=" placeholder="=" onclick="display.value = eval(display.value)" class="equal">
+            </td>
+        </tr> 
+    </div>
+    </div>
+</table><br><br><br><br><br>
+    </form>
+    <div class="flex-container_list_12">
+    <div class="flex-container_list9">
+        <h4 style="margin-left: 90px;">calc</h4>
+        <td style="width:200px;" colspan="4">
+            <input style="background-color: black;" type="text4" id="result" placeholder="39981">
+        </td><br>
+        <div class="flex-container">
+        <div class="flex-container_list1">
+            <table cellpading="3" cellspacing="2">
+                <div class="container">
+                    <div class="calculator">
+                        <form>
+                            <div>
+                                <input type="text" name="display">
+                                </div><br><br>
+                            </div>
+            <tr>
+                <td><input type="button" value="7" onclick="display.value +='7' "></td>
+                <td><input type="button" value="8" onclick="display.value +='8' "></td>
+                <td><input type="button" value="9" onclick="display.value +='9' "></td>
+                <td><input style="background-color:rgb(78, 78, 105);" type="button" value="DEL" onclick="display.value= display.value.toString().slice(0,-1)"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="4" onclick="display.value +='4' "></td>
+                <td><input type="button" value="5" onclick="display.value +='5' "></td>
+                <td><input type="button" value="6" onclick="display.value +='6' "></td>
+                <td><input type="button" value="+" onclick="display.value +='+' "></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="1" onclick="display.value +='1' "></td>
+                <td><input type="button" value="2" onclick="display.value +='2' "></td>
+                <td><input type="button" value="3" onclick="display.value +='3' "></td>
+                <td><input type="button" value="-" onclick="display.value +='-'"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="." onclick="display.value +='.' "></td>
+                <td><input type="button" value="0" onclick="display.value +='0' "></td>
+                <td><input type="button" value="/" onclick="display.value +='/' "></td>
+                <td><input type="button" value="&#xd7" onclick="display.value +='&#xd7' "></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="text" style="align:center" id="RESET" placeholder="RESET" onclick="display.value ='' " >
+                </td>
+                <td colspan="2">
+                    <input style= "background-color:red;" type="text" id="=" placeholder="=" onclick="display.value = eval(display.value)" class="equal">
+                </td>
+            </tr> 
+    </div>
+</table>
+</body>
+</form>
+</form>
+</html>
